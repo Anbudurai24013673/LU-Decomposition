@@ -22,12 +22,14 @@ Developed by: Anbudurai A
 RegisterNumber: 24013673
 */
 ```
+```
 import numpy as np 
 from scipy.linalg import lu
 matrix=np.array(eval(input()))
 piv,l_matrix,u_matrix=lu(matrix)
 print(l_matrix)
 print(u_matrix)
+```
 ```
 (ii) To find the LU Decomposition of a matrix
 
@@ -37,12 +39,14 @@ Developed by: Anbudurai A
 RegisterNumber: 24013673
 */
 ```
+```
 import numpy as np 
 from scipy.linalg import lu
 matrix=np.array(eval(input()))
 piv,l_matrix,u_matrix=lu(matrix)
 print(l_matrix)
 print(u_matrix)
+```
 
 
 ## Output:
